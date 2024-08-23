@@ -31,7 +31,7 @@ fn main() {
                     Command::new("cls")
                         .status().expect("Failed");
                 } else {
-                    Command::new("Clear")
+                    Command::new("clear")
                         .status().expect("Failed");
                 }
                 println!("You guessed it! The Secret Number was {}", secret_number);
